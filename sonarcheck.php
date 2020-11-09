@@ -31,7 +31,7 @@ while(isBuildInProgress($sonarQubeUrl,$sonarQubeToken))
 
 $isError = isBuildStatusError($sonarQubeUrl,$sonarQubeToken,$projectKey);
 
-return ($isError) ? 1 : 0;
+exit(($isError) ? 1 : 0);
 
 function isBuildStatusError($sonarQubeUrl,$sonarQubeToken,$projectKey)
 {
