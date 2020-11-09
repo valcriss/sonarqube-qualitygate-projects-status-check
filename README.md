@@ -6,3 +6,6 @@ edit the source file to configure $sonarQubeUrl and $sonarQubeToken values
 
 ### Usage
 usage sonarcheck projectKey
+
+
+Tested with sonarqube 8.5.1
